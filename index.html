@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clon Discord</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/logo.png">
+</head>
+<body>
+  <div class="app">
+
+    <!-- BARRA DE SERVIDORES -->
+    <div class="servers">
+      <div class="server active">🏠</div>
+      <div class="server">🎮</div>
+      <div class="server">💬</div>
+      <div class="server">🎵</div>
+      <div class="server add">＋</div>
+    </div>
+
+    <!-- PANEL DE CANALES -->
+    <div class="channels">
+      <div class="server-name">Servidor Ejemplo</div>
+      <div class="channel-group">
+        <div class="group-title">Texto</div>
+        <div class="channel active"># general</div>
+        <div class="channel"># memes</div>
+        <div class="channel"># música</div>
+      </div>
+      <div class="channel-group">
+        <div class="group-title">Voz</div>
+        <div class="channel">🔊 General</div>
+        <div class="channel">🔊 Música</div>
+      </div>
+      <div class="user-bar">
+        <div class="avatar">🧑</div>
+        <div class="username">Usuario</div>
+      </div>
+    </div>
+
+    <!-- ZONA DE CHAT -->
+    <div class="chat">
+      <div class="chat-header"># general</div>
+      <div class="chat-messages">
+        <div class="message">
+          <div class="avatar">🧙‍♂️</div>
+          <div class="msg-content">
+            <div class="msg-user">Mago</div>
+            <div class="msg-text">¡Bienvenido al servidor! 🎉</div>
+          </div>
+        </div>
+
+        <div class="message">
+          <div class="avatar">🐱</div>
+          <div class="msg-content">
+            <div class="msg-user">Gato</div>
+            <div class="msg-text">Hola a todos 😺</div>
+          </div>
+        </div>
+
+        <div class="message">
+          <div class="avatar">🧑‍🚀</div>
+          <div class="msg-content">
+            <div class="msg-user">Astronauta</div>
+            <div class="msg-text">¿Listos para despegar? 🚀</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-input">
+        <input type="text" id="messageInput" placeholder="Escribe un mensaje..." >
+      </div>
+    </div>
+
+    <!-- LISTA DE USUARIOS -->
+    <div class="users">
+      <div class="section-title">En línea</div>
+      <div class="user">🧙‍♂️ Mago</div>
+      <div class="user">🐱 Gato</div>
+      <div class="user">🧑‍🚀 Astronauta</div>
+    </div>
+
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
